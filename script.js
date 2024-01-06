@@ -14,12 +14,7 @@ function create() {
                                   fontFamily:"Arial Black",
                           
                                 }).setScrollFactor(0).setDepth(200);
-  this.position = this.add.text(0, 20, "Position", {
-    fill:"white",
-    fontSize:"20px",
-    fontFamily:"Arial Black",
 
-  }).setScrollFactor(0).setDepth(200);
   this.w = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.W);
   this.a = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A);
   this.s = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.S);
